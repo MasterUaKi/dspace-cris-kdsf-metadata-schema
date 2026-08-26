@@ -1,5 +1,4 @@
-powershell -Command "Set-Content -Path 'README.md' -Encoding UTF8 -Value @'
-# KDSF Full Metadata Schema for DSpace-CRIS (Kerndatensatz Forschung)
+﻿# KDSF Full Metadata Schema for DSpace-CRIS (Kerndatensatz Forschung)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Standard: KDSF](https://img.shields.io/badge/Standard-KDSF%202.0%2F2.1%20(143%20Fields)-green.svg)](https://kerndatensatz-forschung.de/)

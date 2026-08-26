@@ -1,8 +1,19 @@
-@misc{riabtsev_2026_kdsf_full_schema,
-  author       = {Oleh Riabtsev},
-  title        = {KDSF Full Metadata Schema for DSpace-CRIS (143 Fields)},
-  year         = 2026,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {[https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema](https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema)}
-}
+﻿cff-version: 1.2.0
+message: "If you use this metadata schema, please cite it as below."
+authors:
+  - family-names: "Riabtsev"
+    given-names: "Oleh"
+    affiliation: "Universitaet Vechta"
+title: "KDSF Full Metadata Schema for DSpace-CRIS (143 Fields)"
+version: 1.0.0
+date-released: 2026-08-26
+url: "https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema"
+license: "MIT"
+keywords:
+  - "dspace"
+  - "dspace-cris"
+  - "kdsf"
+  - "kerndatensatz-forschung"
+  - "metadata-schema"
+  - "cris"
+  - "research-information-system"

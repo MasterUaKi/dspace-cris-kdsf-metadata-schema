@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ====================================================================
+  KDSF 2.0/2.1 Consolidated Metadata Schema (Full 143 Fields)
+  Version: 1.0.0
+  Date: 2026-08-19
+  Author: Oleh Riabtsev
+  ====================================================================
+-->
+<dspace-dc-types>
+  <dc-schema>
+    <name>kdsf</name>
+    <namespace>https://kerndatensatz-forschung.de/kdsf_standard/2.0#</namespace>
+  </dc-schema>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-0-0: PERSON                                             -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>familyName</qualifier><scope_note>KDSF-B-0-1: Nachname (Familienname)</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>givenName</qualifier><scope_note>KDSF-B-0-2: Vorname (Rufname)</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>academicDegree</qualifier><scope_note>KDSF-B-0-3: Akademischer Grad</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>identifierOrcid</qualifier><scope_note>KDSF-B-0-4-A/B: ORCID iD</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>identifierGnd</qualifier><scope_note>KDSF-B-0-4-A/B: GND-ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>identifierResearcherId</qualifier><scope_note>KDSF-B-0-4-A/B: ResearcherID / WoS</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>identifierScopusId</qualifier><scope_note>KDSF-B-0-4-A/B: Scopus Author ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-0-4-A/B: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>gender</qualifier><scope_note>KDSF-B-0-5: Geschlecht</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>birthDate</qualifier><scope_note>KDSF-B-0-6: Geburtsdatum</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>person</element><qualifier>nationality</qualifier><scope_note>KDSF-B-0-7: Staatsangehoerigkeit (ISO 3166-1)</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-1-0: BESCHÄFTIGUNGSVERHÄLTNIS                           -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-1-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>startDate</qualifier><scope_note>KDSF-B-1-2: Beginn</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>endDate</qualifier><scope_note>KDSF-B-1-3: Ende</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>activityType</qualifier><scope_note>KDSF-B-1-4: Taetigkeitsart</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>contractStatus</qualifier><scope_note>KDSF-B-1-5: Befristungsstatus</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>contractDurationMonths</qualifier><scope_note>KDSF-B-1-6: Vertragslaufzeit in Monaten</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>fte</qualifier><scope_note>KDSF-B-1-7: Umfang in VZAE (0.00-1.00)</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>fundingSource</qualifier><scope_note>KDSF-B-1-8: Finanzierungsform</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>staffCategory</qualifier><scope_note>KDSF-B-1-9: Personalkategorie</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>profDesignation</qualifier><scope_note>KDSF-B-1-10: Bezeichnung Professor/-in</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>tenureTrack</qualifier><scope_note>KDSF-B-1-11: Tenure Track</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>juniorGroupLead</qualifier><scope_note>KDSF-B-1-12: Nachwuchsgruppenleitung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>employment</element><qualifier>jointAppointment</qualifier><scope_note>KDSF-B-1-13: Gemeinsame Berufung</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-2-0: PROJEKT                                            -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-2-1: Interner Identifier des Projekts</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>title</qualifier><scope_note>KDSF-B-2-2: Titel des Projekts</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>acronym</qualifier><scope_note>KDSF-B-2-3: Akronym</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>abstract</qualifier><scope_note>KDSF-B-2-4: Abstract / Beschreibung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>startDate</qualifier><scope_note>KDSF-B-2-5: Beginn des Projekts</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>endDate</qualifier><scope_note>KDSF-B-2-6: Ende des Projekts</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>purpose</qualifier><scope_note>KDSF-B-2-7: Projektzweck</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>consortiumRole</qualifier><scope_note>KDSF-B-2-8: Koordinationsrolle</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>researchField</qualifier><scope_note>KDSF-B-2-9: Forschungsfeld</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>project</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-2-10: Fachklassifikation (Destatis)</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-3-0: FÖRDERUNG (FUNDING)                                -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>funding</element><qualifier>identifierGrant</qualifier><scope_note>KDSF-B-3-1: Foerderkennzeichen / DOI</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>funding</element><qualifier>fundingProgram</qualifier><scope_note>KDSF-B-3-2: Foerderprogramm</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>funding</element><qualifier>fundingType</qualifier><scope_note>KDSF-B-3-3: Art der Foerderung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>funding</element><qualifier>amountGranted</qualifier><scope_note>KDSF-B-3-4: Bewilligungssumme der Einrichtung in EUR</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>funding</element><qualifier>amountTotalConsortium</qualifier><scope_note>KDSF-B-3-5: Gesamtsumme Verbund in EUR</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>funding</element><qualifier>revenueYear</qualifier><scope_note>KDSF-B-3-6: Einnahmen/Ertraege nach Kalenderjahr</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-4-0: EXTERNES PROJEKT                                   -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>externalproject</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-4-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalproject</element><qualifier>title</qualifier><scope_note>KDSF-B-4-2: Titel externes Teilprojekt</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalproject</element><qualifier>amountGranted</qualifier><scope_note>KDSF-B-4-3: Bewilligungssumme Partner</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-5-0: STRUKTURIERTES PROMOTIONSPROGRAMM                  -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-5-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>title</qualifier><scope_note>KDSF-B-5-2: Titel des Programms</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>programType</qualifier><scope_note>KDSF-B-5-3: Programmtyp</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>fundingSource</qualifier><scope_note>KDSF-B-5-4: Finanzierungsform</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>hasScholarshipsOrPositions</qualifier><scope_note>KDSF-B-5-5: Stipendien/Stellen vorhanden</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>startDate</qualifier><scope_note>KDSF-B-5-6: Beginn</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>endDate</qualifier><scope_note>KDSF-B-5-7: Ende</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>researchField</qualifier><scope_note>KDSF-B-5-8: Forschungsfeld</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprogram</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-5-9: Fachklassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-6-0: PROMOTIONSVERFAHREN                                -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-6-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>dissertationTitle</qualifier><scope_note>KDSF-B-6-2: Dissertationstitel</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>startDate</qualifier><scope_note>KDSF-B-6-3: Beginn der Promotion</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>endDate</qualifier><scope_note>KDSF-B-6-4: Abschluss der Promotion</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>status</qualifier><scope_note>KDSF-B-6-5: Status</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>targetDegree</qualifier><scope_note>KDSF-B-6-6: Angestrebter Grad</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>cooperationStatus</qualifier><scope_note>KDSF-B-6-7: Kooperationsstatus</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>priorDegreeCountry</qualifier><scope_note>KDSF-B-6-8: Vorstudienland</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>firstSupervisionHere</qualifier><scope_note>KDSF-B-6-9: Erstbetreuung hier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>programParticipation</qualifier><scope_note>KDSF-B-6-10: Programmteilnahme</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>overallGrade</qualifier><scope_note>KDSF-B-6-11: Gesamtnote</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>researchField</qualifier><scope_note>KDSF-B-6-12: Forschungsfeld</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>doctoralprocess</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-6-13: Fachklassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-7-0: HABILITATIONSVERFAHREN                             -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-7-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>treatiseTitle</qualifier><scope_note>KDSF-B-7-2: Habilitationstitel</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>startDate</qualifier><scope_note>KDSF-B-7-3: Eroeffnung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>endDate</qualifier><scope_note>KDSF-B-7-4: Vollendung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>status</qualifier><scope_note>KDSF-B-7-5: Status</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>veniaLegendiSubject</qualifier><scope_note>KDSF-B-7-6: Venia Legendi</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>researchField</qualifier><scope_note>KDSF-B-7-7: Forschungsfeld</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>habilitationprocess</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-7-8: Fachklassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-8-0: PUBLIKATION                                        -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>identifierDoi</qualifier><scope_note>KDSF-B-8-1: DOI</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>identifierHandle</qualifier><scope_note>KDSF-B-8-1: Handle / URN</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>identifierIsbn</qualifier><scope_note>KDSF-B-8-1: ISBN</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>identifierIssn</qualifier><scope_note>KDSF-B-8-1: ISSN</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-8-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>title</qualifier><scope_note>KDSF-B-8-2: Titel</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>publicationYear</qualifier><scope_note>KDSF-B-8-3: Erscheinungsjahr</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>publicationType</qualifier><scope_note>KDSF-B-8-4: Publikationstyp</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>peerReviewed</qualifier><scope_note>KDSF-B-8-5: Peer-Review</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>openAccessStatus</qualifier><scope_note>KDSF-B-8-6: OA-Status</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>openAccessLicense</qualifier><scope_note>KDSF-B-8-7: OA-Lizenz</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>researchField</qualifier><scope_note>KDSF-B-8-8: Forschungsfeld</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>publication</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-8-9: Fachklassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-9-0: PATENT                                             -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>identifierPatentNumber</qualifier><scope_note>KDSF-B-9-1: Patentnummer</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>identifierApplicationNumber</qualifier><scope_note>KDSF-B-9-1: Anmeldenummer</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-9-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>title</qualifier><scope_note>KDSF-B-9-2: Patenttitel</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>applicationDate</qualifier><scope_note>KDSF-B-9-3: Anmeldedatum</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>grantDate</qualifier><scope_note>KDSF-B-9-4: Erteilungsdatum</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>patentStatus</qualifier><scope_note>KDSF-B-9-5: Patentstatus</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>patentTerritory</qualifier><scope_note>KDSF-B-9-6: Schutzrechtsgebiet</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>commercializationStatus</qualifier><scope_note>KDSF-B-9-7: Verwertungsstatus</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>patent</element><qualifier>ipcClassification</qualifier><scope_note>KDSF-B-9-8: IPC-Klassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-10-0: SCHUTZRECHT OHNE PATENT                           -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>otherip</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-10-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>otherip</element><qualifier>title</qualifier><scope_note>KDSF-B-10-2: Bezeichnung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>otherip</element><qualifier>ipType</qualifier><scope_note>KDSF-B-10-3: Typ des Schutzrechts</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>otherip</element><qualifier>applicationDate</qualifier><scope_note>KDSF-B-10-4: Anmeldedatum</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>otherip</element><qualifier>registrationDate</qualifier><scope_note>KDSF-B-10-5: Eintragungsdatum</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>otherip</element><qualifier>commercializationStatus</qualifier><scope_note>KDSF-B-10-6: Verwertungsstatus</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-11-0: AUSGRÜNDUNG (SPIN-OFF)                            -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-11-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>name</qualifier><scope_note>KDSF-B-11-2: Unternehmensname</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>foundingDate</qualifier><scope_note>KDSF-B-11-3: Gruendungsdatum</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>spinoffType</qualifier><scope_note>KDSF-B-11-4: Ausgruendungstyp</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>institutionalParticipation</qualifier><scope_note>KDSF-B-11-5: Kapitalbeteiligung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>status</qualifier><scope_note>KDSF-B-11-6: Unternehmensstatus</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>spinoff</element><qualifier>economicSector</qualifier><scope_note>KDSF-B-11-7: Wirtschaftszweig (NACE/WZ)</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-12-0: PREIS / AUSZEICHNUNG                              -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>award</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-12-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>award</element><qualifier>title</qualifier><scope_note>KDSF-B-12-2: Bezeichnung des Preises</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>award</element><qualifier>awardYear</qualifier><scope_note>KDSF-B-12-3: Verleihungsjahr</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>award</element><qualifier>awardCategory</qualifier><scope_note>KDSF-B-12-4: Preiskategorie</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>award</element><qualifier>reach</qualifier><scope_note>KDSF-B-12-5: Reichweite</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-13-0: FORSCHUNGSINFRASTRUKTUR                           -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-13-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>identifierRor</qualifier><scope_note>KDSF-B-13-1: ROR ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>identifierMeril</qualifier><scope_note>KDSF-B-13-1: MERIL ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>name</qualifier><scope_note>KDSF-B-13-2: Bezeichnung Infrastruktur</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>infraType</qualifier><scope_note>KDSF-B-13-3: Infrastrukturtyp</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>accessType</qualifier><scope_note>KDSF-B-13-4: Zugangsart</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>commissioningDate</qualifier><scope_note>KDSF-B-13-5: Inbetriebnahme</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>decommissioningDate</qualifier><scope_note>KDSF-B-13-6: Ausserbetriebnahme</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>researchField</qualifier><scope_note>KDSF-B-13-7: Forschungsfeld</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>infra</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-13-8: Fachklassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-14-0: ORGANISATIONSEINHEIT                              -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>orgunit</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-14-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>orgunit</element><qualifier>identifierGerit</qualifier><scope_note>KDSF-B-14-1: GERiT ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>orgunit</element><qualifier>name</qualifier><scope_note>KDSF-B-14-2: Bezeichnung</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>orgunit</element><qualifier>subjectClassification</qualifier><scope_note>KDSF-B-14-3: Fachklassifikation</scope_note></dc-type>
+
+  <!-- ============================================================== -->
+  <!-- KDSF-B-15-0: EXTERNE ORGANISATION                              -->
+  <!-- ============================================================== -->
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierRor</qualifier><scope_note>KDSF-B-15-1: ROR ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierGnd</qualifier><scope_note>KDSF-B-15-1: GND ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierIsni</qualifier><scope_note>KDSF-B-15-1: ISNI ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierGerit</qualifier><scope_note>KDSF-B-15-1: GERiT ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierOfr</qualifier><scope_note>KDSF-B-15-1: Crossref OFR ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierWikidata</qualifier><scope_note>KDSF-B-15-1: Wikidata ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierOpenAlex</qualifier><scope_note>KDSF-B-15-1: OpenAlex ID</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>identifierInternal</qualifier><scope_note>KDSF-B-15-1: Interner Identifier</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>name</qualifier><scope_note>KDSF-B-15-2: Name Organisation</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>countryIso</qualifier><scope_note>KDSF-B-15-3: Land (ISO 3166-1)</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>orgType</qualifier><scope_note>KDSF-B-15-4: Organisationstyp</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>funderRole</qualifier><scope_note>KDSF-B-15-5: Drittmittelgeber</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>funderCategory</qualifier><scope_note>KDSF-B-15-6: Geberkategorie</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>awardProviderRole</qualifier><scope_note>KDSF-B-15-8: Preisverleiher</scope_note></dc-type>
+  <dc-type><schema>kdsf</schema><element>externalorg</element><qualifier>awardProviderCategory</qualifier><scope_note>KDSF-B-15-9: Preisverleiher-Kategorie</scope_note></dc-type>
+</dspace-dc-types>
