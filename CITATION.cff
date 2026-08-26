@@ -5,8 +5,9 @@ title: "KDSF Full Metadata Schema for DSpace-CRIS (143 Fields)"
 authors:
   - family-names: "Riabtsev"
     given-names: "Oleh"
-    affiliation: "Universitaet Vechta"
+    affiliation: "Universität Vechta"
 version: 1.0.0
+doi: 10.5281/zenodo.22107818
 date-released: 2026-08-26
 license: "MIT"
 url: "https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema"
@@ -15,6 +16,7 @@ keywords:
   - "dspace"
   - "dspace-cris"
   - "kdsf"
+  - "kdsf-2.1"
   - "kerndatensatz-forschung"
   - "metadata-schema"
   - "cris"

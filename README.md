@@ -1,12 +1,14 @@
-﻿# KDSF Full Metadata Schema for DSpace-CRIS (Kerndatensatz Forschung)
+﻿# KDSF 2.1 Full Metadata Schema for DSpace-CRIS (Kerndatensatz Forschung)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22107818.svg)](https://doi.org/10.5281/zenodo.22107818)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Standard: KDSF](https://img.shields.io/badge/Standard-KDSF%202.0%2F2.1%20(143%20Fields)-green.svg)](https://kerndatensatz-forschung.de/)
+[![Standard: KDSF](https://img.shields.io/badge/Standard-KDSF%202.1%20(143%20Fields)-green.svg)](https://kerndatensatz-forschung.de/)
 [![DSpace-CRIS Compatible](https://img.shields.io/badge/DSpace--CRIS-7.x%20%7C%208.x-blue.svg)](https://github.com/4Science/DSpace)
 
 > **Version:** 1.0.0  
 > **Release Date:** 2026-08-26  
 > **Author:** Oleh Riabtsev  
+> **DOI:** [10.5281/zenodo.22107818](https://doi.org/10.5281/zenodo.22107818)  
 > **Namespace:** `https://kerndatensatz-forschung.de/kdsf_standard/2.0#`  
 > **Prefix:** `kdsf`  
 > **Schema File:** `schema/kdsf-metadata-schema-full.xml` (143 Fields)
@@ -15,7 +17,7 @@
 
 ## 🇩🇪 Beschreibung (Deutsch)
 
-Dieses Repository enthält die vollständige, konsolidierte Metadatenschema-Definition des **Kerndatensatz Forschung (KDSF 2.0/2.1)** für **DSpace-CRIS 7+ und 8+**. Es umfasst **143 standardisierte Metadatenfelder** über alle 16 Module der KDSF-Spezifikation zur Abbildung von Forschungsaktivitäten, Personal, Projekten, Promotionen und Transferleistungen an deutschen Wissenschaftseinrichtungen.
+Dieses Repository enthält die vollständige, konsolidierte Metadatenschema-Definition des **Kerndatensatz Forschung (KDSF 2.1)** für **DSpace-CRIS 7+ und 8+**. Es umfasst **143 standardisierte Metadatenfelder** über alle 16 Module der KDSF-Spezifikation zur Abbildung von Forschungsaktivitäten, Personal, Projekten, Promotionen und Transferleistungen an deutschen Wissenschaftseinrichtungen.
 
 ### Modulabdeckung des KDSF-Vollschemas (143 Felder)
 
@@ -42,7 +44,7 @@ Dieses Repository enthält die vollständige, konsolidierte Metadatenschema-Defi
 
 ## 🇬🇧 Overview (English)
 
-This repository provides the full, consolidated **KDSF (Kerndatensatz Forschung 2.0/2.1)** XML metadata registry schema for **DSpace-CRIS**. Covering **143 granular metadata fields**, it provides complete compliance for institutional research information management.
+This repository provides the full, consolidated **KDSF (Kerndatensatz Forschung 2.1)** XML metadata registry schema for **DSpace-CRIS**. Covering **143 granular metadata fields**, it provides complete compliance for institutional research information management.
 
 ---
 
@@ -50,3 +52,17 @@ This repository provides the full, consolidated **KDSF (Kerndatensatz Forschung 
 
 ```bash
 [dspace]/bin/dspace registry-loader -m schema/kdsf-metadata-schema-full.xml
+
+}
+  url          = {[https://doi.org/10.5281/zenodo.22107818](https://doi.org/10.5281/zenodo.22107818)}
+  doi          = {10.5281/zenodo.22107818},
+  publisher    = {Zenodo},
+  year         = 2026,
+  title        = {KDSF 2.1 Full Metadata Schema for DSpace-CRIS (143 Fields)},
+  author       = {Oleh Riabtsev},
+@misc{riabtsev_2026_kdsf_2_1_schema,
+Фрагмент коду
+🔗 Zitation / Citation
+
+Veröffentlicht unter der MIT License.
+📜 Lizenz / License
