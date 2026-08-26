@@ -1,0 +1,8 @@
+@misc{riabtsev_2026_kdsf_full_schema,
+  author       = {Oleh Riabtsev},
+  title        = {KDSF Full Metadata Schema for DSpace-CRIS (143 Fields)},
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.XXXXXXX},
+  url          = {[https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema](https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema)}
+}
