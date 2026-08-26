@@ -53,16 +53,4 @@ This repository provides the full, consolidated **KDSF (Kerndatensatz Forschung 
 ```bash
 [dspace]/bin/dspace registry-loader -m schema/kdsf-metadata-schema-full.xml
 
-}
-  url          = {[https://doi.org/10.5281/zenodo.22107818](https://doi.org/10.5281/zenodo.22107818)}
-  doi          = {10.5281/zenodo.22107818},
-  publisher    = {Zenodo},
-  year         = 2026,
-  title        = {KDSF 2.1 Full Metadata Schema for DSpace-CRIS (143 Fields)},
-  author       = {Oleh Riabtsev},
-@misc{riabtsev_2026_kdsf_2_1_schema,
-Фрагмент коду
-🔗 Zitation / Citation
-
 Veröffentlicht unter der MIT License.
-📜 Lizenz / License
