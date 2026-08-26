@@ -1,16 +1,16 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this metadata schema, please cite it as below."
 type: dataset
+title: "KDSF Full Metadata Schema for DSpace-CRIS (143 Fields)"
 authors:
   - family-names: "Riabtsev"
     given-names: "Oleh"
-    affiliation: "Universität Vechta"
-title: "KDSF Full Metadata Schema for DSpace-CRIS (143 Fields)"
+    affiliation: "Universitaet Vechta"
 version: 1.0.0
 date-released: 2026-08-26
+license: "MIT"
 url: "https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema"
 repository-code: "https://github.com/MasterUaKi/dspace-cris-kdsf-metadata-schema"
-license: MIT
 keywords:
   - "dspace"
   - "dspace-cris"
