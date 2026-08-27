@@ -1,56 +1,57 @@
-﻿# KDSF 2.1 Full Metadata Schema for DSpace-CRIS (Kerndatensatz Forschung)
+﻿<!--
+  ====================================================================
+  KDSF 2.1 Metadata Schema for DSpace-CRIS (Documentation)
+  Version: 2.0.0
+  Date: 2026-08-27
+  Author: Oleh Riabtsev
+  ====================================================================
+-->
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22107818.svg)](https://doi.org/10.5281/zenodo.22107818)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Standard: KDSF](https://img.shields.io/badge/Standard-KDSF%202.1%20(143%20Fields)-green.svg)](https://kerndatensatz-forschung.de/)
-[![DSpace-CRIS Compatible](https://img.shields.io/badge/DSpace--CRIS-7.x%20%7C%208.x-blue.svg)](https://github.com/4Science/DSpace)
+# KDSF 2.1 Complete Metadata Schema for DSpace-CRIS
 
-> **Version:** 1.0.0  
-> **Release Date:** 2026-08-26  
-> **Author:** Oleh Riabtsev  
-> **DOI:** [10.5281/zenodo.22107818](https://doi.org/10.5281/zenodo.22107818)  
-> **Namespace:** `https://kerndatensatz-forschung.de/kdsf_standard/2.0#`  
-> **Prefix:** `kdsf`  
-> **Schema File:** `schema/kdsf-metadata-schema-full.xml` (143 Fields)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://doi.org/10.5281/zenodo.22127927)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DSpace-CRIS](https://img.shields.io/badge/DSpace--CRIS-7%20%7C%208-blue.svg)](https://wiki.lyrasis.org/display/DSPACECRIS)
 
----
+A standardized, complete metadata schema implementation for **DSpace-CRIS** based on the official specification of the **Kerndatensatz Forschung (KDSF)** version 2.1 (Commission for Research Information in Germany - KFiD).
 
-## 🇩🇪 Beschreibung (Deutsch)
+## Overview
 
-Dieses Repository enthält die vollständige, konsolidierte Metadatenschema-Definition des **Kerndatensatz Forschung (KDSF 2.1)** für **DSpace-CRIS 7+ und 8+**. Es umfasst **143 standardisierte Metadatenfelder** über alle 16 Module der KDSF-Spezifikation zur Abbildung von Forschungsaktivitäten, Personal, Projekten, Promotionen und Transferleistungen an deutschen Wissenschaftseinrichtungen.
+* **Standard:** Kerndatensatz Forschung (KDSF) 2.1
+* **Version:** 2.0.0
+* **Release Date:** 2026-08-27
+* **Author:** Oleh Riabtsev
+* **Namespace:** `https://kerndatensatz-forschung.de/index.php?id=kdsf_standard_main`
+* **Prefix:** `kdsf`
+* **Total Metadata Fields:** 513 fields
 
-### Modulabdeckung des KDSF-Vollschemas (143 Felder)
+## Covered Core & Extended Entities (18 Blocks)
 
-| KDSF-Modul | DSpace-Element | Felder | Beschreibung |
-| :--- | :--- | :---: | :--- |
-| **KDSF-B-0** | `kdsf.person.*` | 11 | Forschende & Personal (ORCID, GND, Scopus ID, ResearcherID, Stammdaten) |
-| **KDSF-B-1** | `kdsf.employment.*` | 13 | Beschäftigungsverhältnisse, Befristung, VZÄ/FTE, Personalkategorien, Tenure Track |
-| **KDSF-B-2** | `kdsf.project.*` | 10 | Drittmittel- und Eigenforschungsprojekte, Zweck, Laufzeiten, Fachsystematik |
-| **KDSF-B-3** | `kdsf.funding.*` | 6 | Förderungen, Bewilligungssummen, Förderprogramme, Jahreserträge |
-| **KDSF-B-4** | `kdsf.externalproject.*` | 3 | Externe Teilprojekte und Partner-Bewilligungssummen |
-| **KDSF-B-5** | `kdsf.doctoralprogram.*` | 9 | Strukturierte Promotionsprogramme und Graduiertenschulen |
-| **KDSF-B-6** | `kdsf.doctoralprocess.*` | 13 | Promotionsverfahren, Kooperationen, Promotionsstatus, Erstbetreuung |
-| **KDSF-B-7** | `kdsf.habilitationprocess.*` | 8 | Habilitationsverfahren und Venia Legendi |
-| **KDSF-B-8** | `kdsf.publication.*` | 13 | Publikationen, Open-Access-Status, Lizenzen, Peer-Review, Identifier |
-| **KDSF-B-9** | `kdsf.patent.*` | 10 | Patente, IPC-Klassen, Schutzrechtsgebiete, Erteilungsstatus |
-| **KDSF-B-10** | `kdsf.otherip.*` | 6 | Sonstiges geistiges Eigentum (Gebrauchsmuster, Marken, Software) |
-| **KDSF-B-11** | `kdsf.spinoff.*` | 7 | Akademische Ausgründungen, Spin-Offs, Beteiligungen, NACE-Zweige |
-| **KDSF-B-12** | `kdsf.award.*` | 5 | Preise, Ehrungen, Auszeichnungen und Reichweite |
-| **KDSF-B-13** | `kdsf.infra.*` | 10 | Forschungsinfrastrukturen, Großgeräte, ROR/MERIL ID, Zugangsarten |
-| **KDSF-B-14** | `kdsf.orgunit.*` | 4 | Interne Organisationseinheiten, Fakultäten, Institute (GERiT ID) |
-| **KDSF-B-15** | `kdsf.externalorg.*` | 15 | Externe Organisationen, Mittelgeber, Kooperationspartner (ROR, GND, ISNI) |
+| Entity / Block ID | DSpace Element | Description | Fields Count |
+| :--- | :--- | :--- | :--- |
+| **KDSF-B-0** | `person` | Person (Academic staff, researchers, creators) | 67 |
+| **KDSF-B-1** | `employment` | Employment details (Beschäftigungsverhältnis) | 45 |
+| **KDSF-B-2** | `project` | Research projects & consortium structures | 32 |
+| **KDSF-B-3** | `funding` | Grants, funding programs & financial volumes | 21 |
+| **KDSF-B-4** | `externalproject` | External subprojects & consortium partners | 7 |
+| **KDSF-B-5** | `doctoralprogram` | Structured doctoral programs | 16 |
+| **KDSF-B-6** | `doctoralprocess` | Doctoral procedures & supervisions | 27 |
+| **KDSF-B-7** | `habilitationprocess` | Habilitation procedures | 5 |
+| **KDSF-B-8** | `publication` | Publications, journals, proceedings & book chapters | 106 |
+| **KDSF-B-9** | `patent` | Patents, applications & priority claims | 25 |
+| **KDSF-B-10** | `otherip` | Non-patent IP rights (Gebrauchsmuster, brands) | 16 |
+| **KDSF-B-11** | `spinoff` | Research spin-offs (Ausgründungen) | 10 |
+| **KDSF-B-12** | `award` | Academic awards, prizes & honors | 16 |
+| **KDSF-B-13** | `infra` | Research infrastructures & core facilities | 40 |
+| **KDSF-B-14** | `orgunit` | Organizational units, faculties & institutes | 18 |
+| **KDSF-B-15** | `externalorg` | External organizations, funders & corporations | 43 |
+| **KDSF-B-16** | `competencespinoff` | Competence-based spin-offs (Transfer) | 8 |
+| **KDSF-B-17** | `startupproject` | Academic startup projects & pre-founding | 11 |
 
----
+## Installation in DSpace-CRIS
 
-## 🇬🇧 Overview (English)
-
-This repository provides the full, consolidated **KDSF (Kerndatensatz Forschung 2.1)** XML metadata registry schema for **DSpace-CRIS**. Covering **143 granular metadata fields**, it provides complete compliance for institutional research information management.
-
----
-
-## 📥 Import in DSpace-CRIS
+### 1. Import Schema Registry
+Copy `kdsf-metadata-schema-full.xml` to your DSpace server and load it via `registry-loader`:
 
 ```bash
-[dspace]/bin/dspace registry-loader -m schema/kdsf-metadata-schema-full.xml
-
-Veröffentlicht unter der MIT License.
+/dspace/bin/dspace registry-loader -metadata /path/to/kdsf-metadata-schema-full.xml
