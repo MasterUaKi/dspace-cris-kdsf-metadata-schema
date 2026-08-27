@@ -55,3 +55,13 @@ Copy `kdsf-metadata-schema-full.xml` to your DSpace server and load it via `regi
 
 ```bash
 /dspace/bin/dspace registry-loader -metadata /path/to/kdsf-metadata-schema-full.xml
+
+## Release v2.0.0 — KDSF 2.1 Complete Metadata Schema for DSpace-CRIS (7 / 8 / 9)
+
+Vollständige Implementierung des Metadatenschemas für den **Kerndatensatz Forschung (KDSF) 2.1** in DSpace-CRIS (unterstützt DSpace-CRIS Versionen 7.x, 8.x und 9.x).
+
+### Highlights
+* **513 Metadatenfelder:** Vollständige Erfassung aller Eigenschaften gemäß aktueller KFiD-Spezifikation.
+* **18 Entitäten:** Unterstützung aller Basisdatenmodule inklusive der Erweiterungen für Transfer, Gründungen (KDSF-B-16 / KDSF-B-17) und Forschungsinfrastrukturen.
+* **DSpace 9 Ready:** Zukunftsfähiges Schema-Design für moderne DSpace- und DSpace-CRIS-Instanzen.
+* **Standard-Namespace:** `https://kerndatensatz-forschung.de/index.php?id=kdsf_standard_main` (Präfix: `kdsf`).
